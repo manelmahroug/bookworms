@@ -1,0 +1,32 @@
+
+Goodreads Project:
+
+
+
+Based on the data that we have(https://sites.google.com/eng.ucsd.edu/ucsdbookgraph/home?authuser=0), we cannot perform a thorough analysis on users. We do not have data on who their friends are, their followers, the number of books they rated, or the average rating they gave to a book.
+
+Here is what I suggest we do: leverage book and review data for 2 or 3 genres that are quite different(children vs thrillers and mystery, poetry) to explore the following:
+
+
+
+1. Some reviewer are tough graders. They write perfectly positive reviews but they leave a less than perfect score. Using polarity scores, can we identify those reviews? Do they tend to be long or short reviews? Do they receive lot of likes (no_votes in our dataset) or few likes? How about comments? Can we extract keywords from those reviews? 
+This is a good example to emulate for generating key words: https://towardsdatascience.com/how-to-use-natural-language-processing-to-analyze-product-reviews-17992742393c
+
+
+2. Is there a correlation between the length of the review and the rating? A good way to see that relationship is to use a scatter plot to examine the relationship
+
+3. Making the assumption that books rated 4 stars and higher will be recommended, 2 stars or lower not recommended, can we visualize the distribution of the two using polarity scores
+
+Ideas for Visualization:
+-Distribution of review ratings for different genres
+-scatterplot for length of review and rating
+
+
+A great source of inspiration for both visualization and analysis is the following link:
+https://towardsdatascience.com/a-complete-exploratory-data-analysis-and-visualization-for-text-data-29fb1b96fb6a
+ 
+
+
+
+
+ 
